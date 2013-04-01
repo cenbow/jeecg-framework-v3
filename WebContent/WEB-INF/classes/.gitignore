@@ -1,0 +1,14 @@
+/database.properties
+/ehcache.xml
+/jeecg
+/log4j.properties
+/messages_en.properties
+/messages_zh.properties
+/org
+/spring-activiti.xml
+/spring-aop.xml
+/spring-hibernate.xml
+/spring-mvc.xml
+/spring.xml
+/sysConfig.properties
+/test

@@ -17,6 +17,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 import jeecg.system.pojo.base.TSTemplate;
 
 import org.hibernate.HibernateException;
@@ -27,6 +28,7 @@ import org.jeecgframework.core.util.ResourceUtil;
 import org.jeecgframework.core.util.StreamUtils;
 import org.jeecgframework.core.util.oConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 
 /**
@@ -52,7 +54,7 @@ public class TemplateUtil {
 	public static TSTemplate ttTemplate = null;
 
 	@Autowired
-	public static void setCommonService(CommonService commonService) {
+	public void setCommonService(CommonService commonService) {
 		TemplateUtil.commonService = commonService;
 	}
 
