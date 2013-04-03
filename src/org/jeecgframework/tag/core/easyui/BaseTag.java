@@ -29,13 +29,21 @@ public class BaseTag extends TagSupport {
 				sb.append("<script type=\"text/javascript\" src=\"plug-in/jquery/jquery-1.8.0.min.js\"></script>");
 			}
 			if (oConvertUtils.isIn("easyui", types)) {
-				sb.append("<script type=\"text/javascript\" src=\"plug-in/tools/dataformat.js\"></script>");
-				sb.append("<link id=\"easyuiTheme\" rel=\"stylesheet\" href=\"plug-in/easyui/themes/default/easyui.css\" type=\"text/css\"></link>");
-				sb.append("<link rel=\"stylesheet\" href=\"plug-in/easyui/themes/icon.css\" type=\"text/css\"></link>");
-				sb.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"plug-in/accordion/css/accordion.css\">");
-				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/jquery.easyui.min.1.3.2.js\"></script>");
+				sb.append("<link id=\"easyuiTheme\" rel=\"stylesheet\" type=\"text/css\" href=\"plug-in/easyui/themes/default/easyui.css\">");
+				sb.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"plug-in/easyui/themes/icon.css\">");
+//				sb.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"../demo.css\">");
+//				sb.append("<script type=\"text/javascript\" src=\"../../jquery-1.8.0.min.js\"></script>");
+				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/jquery.easyui.min.js\"></script>");
+
+//				sb.append("<script type=\"text/javascript\" src=\"plug-in/tools/dataformat.js\"></script>");
+//				sb.append("<link id=\"easyuiTheme\" rel=\"stylesheet\" href=\"plug-in/easyui/themes/default/easyui.css\" type=\"text/css\"></link>");
+//				sb.append("<link rel=\"stylesheet\" href=\"plug-in/easyui/themes/icon.css\" type=\"text/css\"></link>");
+//				sb.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"plug-in/accordion/css/accordion.css\">");
+//				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/jquery.easyui.min.1.3.2.js\"></script>");
 				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/locale/easyui-lang-zh_CN.js\"></script>");
-				sb.append("<script type=\"text/javascript\" src=\"plug-in/tools/syUtil.js\"></script>");
+				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/locale/easyui-lang-zh_TW.js\"></script>");
+				sb.append("<script type=\"text/javascript\" src=\"plug-in/easyui/locale/easyui-lang-en.js\"></script>");
+//				sb.append("<script type=\"text/javascript\" src=\"plug-in/tools/syUtil.js\"></script>");
 			}
 			if (oConvertUtils.isIn("DatePicker", types)) {
 				sb.append("<script type=\"text/javascript\" src=\"plug-in/My97DatePicker/WdatePicker.js\"></script>");

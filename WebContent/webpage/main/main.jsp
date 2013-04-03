@@ -6,7 +6,7 @@
 <html>
 <head>
 <title>JEECG V3.0演示系统</title>
-<t:base type="jquery,easyui,tools,DatePicker"></t:base>
+<t:base type="jquery,easyui"></t:base>
 <link rel="shortcut icon" href="images/favicon.ico">
 <style type="text/css">
 a {

@@ -1,4 +1,4 @@
-﻿$(function() {
+﻿$(function() {//$(document).ready(function(){简写
 	InitLeftMenu();
 	tabClose();
 	tabCloseEven();
@@ -34,7 +34,8 @@ function InitLeftMenu() {
 		$(this).parent().addClass("selected");
 	}).hover(function() {
 		$(this).parent().addClass("hover");
-	}, function() {
+	}, 
+	function() {
 		$(this).parent().removeClass("hover");
 	});
 
